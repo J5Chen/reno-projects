@@ -10,4 +10,6 @@ Mobile:
 
 Desktop:
 
-![large-basement-with-a-modern-interior-design-1024x683](https://github.com/J5Chen/reno-projects/assets/118089167/91100b3e-145a-4964-94aa-83674eb3e65d)
+![Desktop](https://github.com/J5Chen/reno-projects/assets/118089167/c71eca07-b3a4-4642-8932-b9fa9a8b43d4)
+
+
