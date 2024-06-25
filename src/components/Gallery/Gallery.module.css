@@ -1,0 +1,72 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 2vw;
+    position: absolute;
+    transform: translateY(-5vh);
+    max-width: 100vw;
+    z-index: 9999;
+    background-color: white;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(0 0 0 / 20%);
+}
+
+
+img {
+    max-width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px rgb(0 0 0 / 20%);
+}
+
+.galleryContainer {
+    position: relative;
+}
+
+dialog {
+    top: 30%;
+    transform: rotate(90deg);
+    transform-origin: center;
+    box-shadow: 2px 20px rgb(0 0 0 / 20%);
+}
+
+dialog img {
+    max-width: 100%;
+    height: auto
+}
+
+.button {
+    font-size:0.9rem;
+    background-color: #F2F2F2;
+    color: #14213D;
+}
+
+.projectImg {
+    grid-column: span 2;
+}
+
+@media only screen and (min-width: 500px) {
+    .projectImg {
+        grid-column: span 1;
+    }
+
+    .gallery {
+        transform: translateY(-20vh);
+        margin: auto;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .button {
+        height:8vw;
+        font-size: 3rem;
+    }
+
+    dialog {
+        transform:none;
+        transform-origin: center;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
