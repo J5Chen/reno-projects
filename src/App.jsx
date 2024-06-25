@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <header>
-        <h1> <a href="/">Placeholder Construction</a></h1>
-        <a href="/#contact"> Contact Us </a>
+        <h1> <a href="/reno-projects/">Placeholder Construction</a></h1>
+        <a href="/reno-projects/#contact"> Contact Us </a>
       </header>
       <Routes>
         <Route path='/' element={<HomePage />} />
